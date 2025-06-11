@@ -21,6 +21,11 @@ Oystictor 架構是本研究「基於卷積神經網路預測牡蠣肉重的研�
 2.「**02_Oystictor程式系統**」：模型訓練與預測程式。
 - `註`：本研究的所有內容皆透過Python 語法，於[Google Colaboratory](https://colab.research.google.com/?hl=zh-tw) 平台進行程式開發。
 
+3.「**03_Oystictor實驗結果**」：實際預測產出的預測結果圖表。
+<p align="center">
+	<img src="https://i.imgur.com/HwwjwSZ.png" alt="Oystictor實驗結果" width="800"/>
+</p>
+
 ---
 
 ## 🧪 牡蠣特徵
@@ -64,13 +69,16 @@ Oystictor 架構是本研究「基於卷積神經網路預測牡蠣肉重的研�
 
 使用兩種模型進行訓練與比較：
 
-- 線性迴歸（LR）: 本研究所訓練LR模型請參考「[LR模型](https://drive.google.com/drive/folders/1TOi9jT_47k6tEY0AgLZ8wwlvGu2tnCSI?usp=sharing)」。
-- 卷積神經網路（CNN）: 本研究所訓練CNN模型請參考「[CNN模型](https://drive.google.com/drive/folders/11EdKJJ3N2LcicLlTZerIX0mFPCrQ1BBR?usp=drive_link)」。
+1.**線性迴歸（LR）**: 本研究所訓練LR模型請參考「[LR模型](https://drive.google.com/drive/folders/1TOi9jT_47k6tEY0AgLZ8wwlvGu2tnCSI?usp=sharing)」。
+- 使用`Pandas / NumPy`進行資料整理與`scikit-learn：LinearRegression`建立模型訓練及預測。
+
+2.**卷積神經網路（CNN）**: 本研究所訓練CNN模型請參考「[CNN模型](https://drive.google.com/drive/folders/11EdKJJ3N2LcicLlTZerIX0mFPCrQ1BBR?usp=drive_link)」。
+- 使用`Tensorflow.keras, keras, opencv, pandas, numpy, matplotlib`進行模型建構參數調整、影像處理與資料預處理，最後以評估指標`「MAE」、「MSE」、「RMSE」、「MSLE」、「MEDAE」、「R2」`及`「MAPE」`進行模型預測成效評估。
 
 資料分為：
 
-- 訓練集：130 筆
-- 測試集：40 筆
+- **訓練集**：130 筆
+- **測試集**：40 筆
 
 ---
 
