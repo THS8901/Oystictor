@@ -64,8 +64,8 @@ Oystictor 架構是本研究「基於卷積神經網路預測牡蠣肉重的研�
 
 使用兩種模型進行訓練與比較：
 
-- 線性迴歸（LR）: 本研究所用LR模型請參考「[LR模型](https://drive.google.com/drive/folders/1TOi9jT_47k6tEY0AgLZ8wwlvGu2tnCSI?usp=sharing)」。
-- 卷積神經網路（CNN）: 本研究所用CNN模型請參考「[CNN模型](https://drive.google.com/drive/folders/11EdKJJ3N2LcicLlTZerIX0mFPCrQ1BBR?usp=drive_link)」。
+- 線性迴歸（LR）: 本研究所訓練LR模型請參考「[LR模型](https://drive.google.com/drive/folders/1TOi9jT_47k6tEY0AgLZ8wwlvGu2tnCSI?usp=sharing)」。
+- 卷積神經網路（CNN）: 本研究所訓練CNN模型請參考「[CNN模型](https://drive.google.com/drive/folders/11EdKJJ3N2LcicLlTZerIX0mFPCrQ1BBR?usp=drive_link)」。
 
 資料分為：
 
