@@ -65,7 +65,7 @@
 
 ---
 
-## 🔍 模型訓練與預測
+## 🔍 模型訓練與預測成效
 
 使用兩種模型進行訓練與比較：
 
@@ -73,12 +73,16 @@
 - 使用`Pandas / NumPy`進行資料整理與`scikit-learn：LinearRegression`建立模型訓練及預測。
 
 2.**卷積神經網路（CNN）**: 本研究所訓練CNN模型請參考「[CNN模型](https://drive.google.com/drive/folders/11EdKJJ3N2LcicLlTZerIX0mFPCrQ1BBR?usp=drive_link)」。
-- 使用`Tensorflow.keras, Opencv, Pandas, Numpy, Matplotlib`進行模型建構參數調整、影像處理與資料預處理，最後以評估指標`「MAE」、「MSE」、「RMSE」、「MSLE」、「MEDAE」、「R2」`及`「MAPE」`進行模型預測成效評估。
+- 使用`Tensorflow.keras, Opencv, Pandas, Numpy, Matplotlib`進行模型建構、影像處理與資料預處理，並以`Filter,ReLU Activation function,MaxPooling`與`Dropout`做模型訓練過程的各項參數調整，最後以評估指標`「MAE」、「MSE」、「RMSE」、「MSLE」、「MEDAE」、「R2」`及`「MAPE」`進行模型預測成效評估，找出最佳的模型建立方式。
 
 資料分為：
 
 - **訓練集**：130 筆
 - **測試集**：40 筆
+
+模型預測成效：
+
+- **大幅優於先前的其他種預測牡蠣肉重方法**：訓練出的最佳模型在測試集中不只平均絕對誤差(MAE) 僅** 1.09克**，且平均絕對比例誤差(MAPE)也僅有**0.14**。
 
 ---
 
