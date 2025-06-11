@@ -59,14 +59,14 @@ Oystictor 是本研究「基於卷積神經網路預測牡蠣肉重的研究」�
 ## 📎 延伸閱讀
 
 如需完整說明與論文內容，歡迎參考：
-> 📂 [Google Drive - 基於卷積神經網路預測牡蠣肉重的研究](https://your-link-here)
+> 📂 [Google Drive - 基於卷積神經網路預測牡蠣肉重的研究](https://drive.google.com/drive/folders/1A3849ZqeSTWrdHTVLs9eat6GbR-8BnAr?usp=sharing)
 
 ---
 
 ## 🙋 聯絡作者
 
 THS8901  
-專題：基於卷積神經網路預測牡蠣肉重的研究
+研究：基於卷積神經網路預測牡蠣肉重的研究
 
 ---
 
